@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.main-container {
+  max-width: 400px;
+  margin: 10px;
+  background-color: #496b74;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+
+.Ui-container {
+  margin-top: 20px;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+input[type="range"] {
+  width: 100%;
+  background-color: #000;
+  color: #000;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%,
+   #cc2366 75%, #4862c9 100% );
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: ease-in-out 1s;
+}
+
+button:hover {
+  background:  #e6683c;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
